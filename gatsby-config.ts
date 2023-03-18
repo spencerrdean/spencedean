@@ -8,14 +8,13 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.mjs
-    siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
-    siteImage: `/banner.jpg`,
+    siteTitle: `Spencer Dean ✍️`,
+    siteTitleAlt: `Spencer Dean - Personal Site`,
+    siteHeadline: `Spencer Dean - Personal Site`,
+    siteUrl: `https://spencedean.com`,
+    siteDescription: `Technical writing, data science, and journalism portfolio.`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    siteImage: `/banner.jpg`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -25,8 +24,8 @@ const config: GatsbyConfig = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Work`,
+            slug: `/work`,
           },
           {
             title: `About`,
@@ -35,12 +34,12 @@ const config: GatsbyConfig = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/spencer-russell-dean/`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `Medium`,
+            url: `https://medium.com/@spencerdean`,
           },
         ],
       },
