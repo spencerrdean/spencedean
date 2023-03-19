@@ -24,8 +24,8 @@ const config: GatsbyConfig = {
       options: {
         navigation: [
           {
-            title: `Work`,
-            slug: `/work`,
+            title: `Blog`,
+            slug: `/blog`,
           },
           {
             title: `About`,
@@ -115,7 +115,7 @@ const config: GatsbyConfig = {
   allPost(sort: {date: DESC}) {
     nodes {
       title
-      date(formatString: "MMMM D, YYYY")
+      date(formatString: "DD/MM/YYYY")
       excerpt
       slug
     }
